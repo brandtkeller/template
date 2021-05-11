@@ -10,9 +10,9 @@ metadata:
   namespace: bigbang
 spec:
   interval: 1m
-  url: https://repo1.dsop.io/platform-one/big-bang/customers/template.git
+  url: https://github.com/brandtkeller/template.git
   ref:
-    branch: main
+    branch: bigbang-quickstart
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
